@@ -8,11 +8,13 @@ dependencies = [
     "accelerate>=1.10.1",
     "datasets>=4.0.0",
     "langchain>=0.3.27",
+    "langchain-community>=0.3.29",
     "langchain-openai>=0.3.33",
     "notebook>=7.4.5",
     "openai>=1.107.2",
     "python-dotenv>=1.1.1",
     "sentence-transformers>=5.1.0",
+    "tqdm>=4.67.1",
     "transformers>=4.56.1",
 ]
 
