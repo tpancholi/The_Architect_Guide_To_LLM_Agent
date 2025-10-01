@@ -10,20 +10,22 @@ dependencies = [
     "ddgs>=9.6.0",
     "duckduckgo-search>=8.1.1",
     "langchain>=0.3.27",
-    "langchain-community>=0.3.29",
+    "langchain-community>=0.3.30",
     "langchain-openai>=0.3.33",
-    "langfuse>=3.5.0",
-    "notebook>=7.4.5",
-    "openai==1.108.2",
+    "langfuse>=3.5.2",
+    "nltk>=3.9.1",
+    "notebook>=7.4.7",
+    "openai==1.109.1",
     "openinference-instrumentation-smolagents>=0.1.18",
     "opentelemetry-exporter-otlp>=1.37.0",
     "opentelemetry-sdk>=1.37.0",
     "polars>=1.33.1",
     "pymupdf>=1.26.4",
     "python-dotenv>=1.1.1",
-    "ruff==0.13.1",
+    "ruff==0.13.2",
+    "scikit-learn>=1.7.2",
     "sentence-transformers==5.1.1",
-    "smolagents[telemetry]>=1.21.3",
+    "smolagents[telemetry]>=1.22.0",
     "sqlean-py==3.50.4.3",
     "strawberry-graphql==0.282.0",
     "torch>=2.8.0",
@@ -31,14 +33,14 @@ dependencies = [
     "torchvision>=0.23.0",
     "tqdm>=4.67.1",
     "transformers==4.56.2",
-    "uvicorn==0.36.1",
+    "uvicorn==0.37.0",
 ]
 
 [dependency-groups]
 dev = [
     "pre-commit>=4.3.0",
     "pyright>=1.1.405",
-    "ruff>=0.13.0",
+    "ruff>=0.13.2",
 ]
 
 [tool.ruff]
