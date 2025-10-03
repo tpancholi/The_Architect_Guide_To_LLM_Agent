@@ -13,6 +13,7 @@ dependencies = [
     "langchain-community>=0.3.30",
     "langchain-openai>=0.3.33",
     "langfuse>=3.5.2",
+    "matplotlib>=3.10.6",
     "nltk>=3.9.1",
     "notebook>=7.4.7",
     "openai==1.109.1",
