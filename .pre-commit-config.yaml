@@ -21,7 +21,7 @@ repos:
     rev: 0.8.1
     hooks:
       - id: nbstripout
-        files: ^notebooks/.*\.ipynb$
+        files: ^experiments/.*\.ipynb$
         stages: [pre-commit]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
