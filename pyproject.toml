@@ -47,6 +47,7 @@ dependencies = [
     "tqdm>=4.67.1",
     "transformers==4.57.0",
     "uvicorn==0.37.0",
+    "kiwisolver>=1.4.9",
 ]
 
 [dependency-groups]
