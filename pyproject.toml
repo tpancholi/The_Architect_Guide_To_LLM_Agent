@@ -44,6 +44,7 @@ dependencies = [
     "pymupdf==1.26.5",
     "python-dotenv>=1.1.1",
     "scikit-learn>=1.7.2",
+    "sendgrid>=6.12.5",
     "sentence-transformers>=5.1.1",
     "shapely>=2.1.2",
     "smolagents[litellm]>=1.22.0",
